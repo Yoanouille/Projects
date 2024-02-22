@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #04002a;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #04002a;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.scoreBoard {
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background-color: #E2584D;
+    color: white;
+    font-size: 14px;
+    font-family: Asap, sans-serif;
+    padding: 2px 10px;
+}
+
+#joueur {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#ordi {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+
+.result {
+    color: white;
+    font-size: 30px;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.choices {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.choice {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.info {
+    color: white;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    margin: 45px;
+}
+
+.green {
+    border: 3px solid green;
+}
+
+.green:hover {
+    background-color: green;
+}
+
+.red {
+    border: 3px solid red;
+}
+
+.gray {
+    border: 3px solid gray;
+}
+
+.gray:hover {
+    background-color: gray;
+}
+
+.red:hover {
+    background-color: red;
+}
+

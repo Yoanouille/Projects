@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Asap';
+    src: url("Asap/Asap-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url("Asap/Asap-Bold.ttf");
+    font-weight: bold;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.message {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 36px;
+    transition: 0.3s;
+}
+
+#cvs {
+    margin-top: 50px;
+    margin-right: 100px;
+
+}
+
+#board {
+    transition: 0.3s;
+}
